@@ -1,0 +1,37 @@
+:root:has(.Modes input:checked)  {
+    --primary-color:rgb(243, 238, 238);
+    --secondary-color:#7F7F90;
+    --third-color:#C17E20;
+    --fourth-color:#d28a26;
+    --fifth-color:white;
+    --primary-font:'Amatic SC', cursive;
+    --secondary-font:'Open Sans', sans-serif;
+    --third-font:'Inter', sans-serif;
+    --primary-bg-color:#252525;
+    --secondary-bg-color:#000000;
+    --third-bg-color:#201f1f;
+
+}
+:root:has(.Modes input:checked) nav {
+    box-shadow: 0 0 0 0;
+}
+:root:has(.Modes input:checked) .fa-moon {
+    display: none;
+}
+:root:has(.Modes input:checked) .fa-sun {
+    display: block;
+}
+:root:has(.Modes input:checked) .chefs .card .image:before {
+    background-image: url("../img/team-shape-dark.svg");
+  }
+:root:has(.Modes input:checked) .gallery  {
+    background-color:#252525;
+  }
+:root:has(.Modes input:checked) .contact .info > * {
+   
+    background-color: #0D0D0D;
+    
+    color: var(--fifth-color);
+  }
+
+
